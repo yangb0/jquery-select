@@ -1,6 +1,5 @@
 .jquery-select-container {
     box-sizing: border-box;
-
     margin: 0;
     position: relative;
     vertical-align: middle;
@@ -18,9 +17,8 @@
 }
 .jquery-select-container .jquery-select-arrow{
     height: 26px;
-    position: absolute;
     display: inline-block;
-    right: 1px;
+    position: absolute;
     top: 1px;
     width: 20px;
 }
@@ -46,6 +44,9 @@
     display:none;
 }
 .jquery-select-container .jquery-select-filter {
+    vertical-align: middle;
+    margin: 1px 0.2%;
+    width: 99.5%;
     height: 28px;
 }
 .jquery-select-container .jquery-select-data-ul{
@@ -57,6 +58,7 @@
 }
 .jquery-select-container .jquery-select-data-ul >li{
     min-width: 150px;
+    width: 95%;
     min-height: 20px;
     padding: 6px;
     cursor: pointer;
